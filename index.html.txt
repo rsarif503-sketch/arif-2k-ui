@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>BD ARIF 2K - Prediction Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glass-container">
+        <div class="logo-box">
+            <div class="star">★</div>
+            <div class="logo-text">82LOTTERY</div>
+        </div>
+
+        <h2 class="server-title">BD ARIF 2K V9.1</h2>
+
+        <div class="main-content">
+            <div class="input-group">
+                <span>PERIOD NO :-</span>
+                <input type="number" id="periodInput" placeholder="Enter No">
+            </div>
+
+            <div class="result-display">
+                <span>NEXT RESULT :- <span id="signalValue">---</span></span>
+                <span id="dotColor" class="color-dot"></span>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn pulse-effect" id="resultBtn" onclick="getStrongSignal()">GET RESULT</button>
+            <a href="http://dkwin8.com/#/register?invitationCode=88684103969" class="btn secondary" target="_blank">REGISTER NOW</a>
+            <a href="https://t.me/BDARIF100K" class="btn telegram" target="_blank">JOIN TELEGRAM</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
